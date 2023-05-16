@@ -1,6 +1,5 @@
-//function that uses the += operator
-function myFunction() { 
-    var sentence = "I am learning"; //Creating variable
-    sentence += "A lot from this book!"; //using += operator to add the variable
-    document.getElementById("Concatenate").innerHTML = sentence;
-}
+// Retrieve the paragraph element by its ID
+var paragraphElement = document.getElementById("myParagraph");
+
+// Modify the content of the paragraph element
+paragraphElement.innerHTML = "Modified paragraph text.";
