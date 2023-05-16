@@ -20,4 +20,4 @@ document.getElementById("result").innerHTML = "Large Number: " + largeNumber;
 
 // Display "-Infinity" using a negative number
 var negativeNumber = -1 / 0;
-document.getElementById("result").innerHTML += "<br>Negative Number: " + negativeNumber;
+document.getElementById("result_2").innerHTML += "<br>Negative Number: " + negativeNumber;
