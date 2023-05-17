@@ -54,6 +54,11 @@ console.log(false && false); // false (both operands are falulty)
 console.log(true && true);
 console.log(false && false);
 
-function notFunction() {
+function not_Function() {
     document.getElementById("Not").innerHTML= ! (20>10);
 }
+
+function not_Function() {
+    document.getElementById("Not").innerHTML = ! (5>10);
+}
+
