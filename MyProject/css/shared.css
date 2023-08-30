@@ -1,0 +1,487 @@
+/* Generic Style */
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(8, 8, 235, 0.507);
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    font-size: 15px;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #162c44;
+}
+
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .lightbox-img {
+    max-width: 90%;
+    max-height: 90%;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+  }
+  
+footer,
+nav {
+    display: block;
+    height: 50px;
+    width: 100%;
+}
+
+h1, h2, h3, h4 h5, h6 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    line-height: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    color: darkgoldenrod;
+    text-shadow: 5px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+h2 {
+    line-height: 30px;
+    color: rgb(238, 234, 7);
+}
+
+h3 {
+    line-height: 30px;
+    padding-bottom: 20px;
+    color: gold;
+}
+
+h4 {
+    padding-top: 25px;
+    line-height: 40px;
+    padding-bottom: 0px;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+p {
+    font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 15px; 
+ }
+
+ .text-center {
+    text-align: center;
+ }
+
+.heading-padding {
+    padding-bottom: 40px;
+}
+
+section {
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.clearfix::after,
+.container::after,
+.navbar::after {
+    clear:both;
+    display: table;
+    content:"";
+}
+
+.wrap {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.menu-container {
+    max-height: 340px;
+    margin: 0% auto;
+    content: "";
+    /* top:0;
+    left: 0; */
+    /* postion:absolute; */ /* to the top edge of the screen */
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    /* background-color: rgba(255, 255, 255, 0.5) ;*/
+}
+
+/* Home Section Style */
+
+#home {
+    background:url(../images/Lich_King.jpg) no-repeat 50% 50%;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height:auto;
+    display: block;
+    height: auto;
+    padding-top: 350x;  /* This is spacer before the Main title Logo */
+    padding-bottom: 500px; /* This is spacer after main title logo */
+    color: aliceblue;
+}
+
+.head-main {
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.9);
+    font-variant: small-caps;
+    color: #fff;
+    word-spacing: 21pt;
+    font-size: 2.5rem;
+    text-align: left;
+    font-family: impact, sans-serif;
+    line-height: 2;
+    font-weight: 900;
+    padding: 10px;
+}
+
+.head-sub-main {
+    font-size: 23px;
+    font-weight: 500;
+    padding: 50px 20px 10px 20px;
+    text-transform: uppercase;
+}
+
+.head-last {
+    font-size: 18px;
+    font-weight: 900;
+    padding: 5px 20px 20px 20px;
+    border: 1px dotted #fff;
+    padding: 5px;
+}
+
+.article {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    color: #fff;
+}
+
+.article p {
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.container h3 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.vid {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.vid_container {
+    width: 560;
+    text-align: center;
+}
+
+#id vid {
+    margin-bottom: 25px;
+}
+
+.photo-overlay p {
+    color: gold;
+}
+/* Registration Style */
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 8px;
+    margin:0px auto;
+    background-color: rgba(100, 65, 0, 0.3);
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+#contact {
+    background-color: #f5f3f3;
+}
+
+.registration {
+    width: 60%;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0px auto;
+    background-color: rgba(3, 2, 0, 0.3);
+    box-shadow: -1px -1px 1px 0 rgba(0, 0, 0, 1), 1px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.registration h2 {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    color: #13161B;
+    font-weight: 500;
+    font-size: 1em;
+    letter-spacing: 0pt;
+    word-spacing: 0pt;
+}
+
+.registration h2 span {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    color:#13161B;
+    font-weight: 900;
+    font-size: 1.5em;
+    font-variant: small-caps;
+    letter-spacing: .4pt;
+    word-spacing: .3pt;
+}
+
+.registration form {
+    font-size: 15px;
+    outline: none;
+    font-weight: 600;
+    color: #8D8E8F;
+    padding: 12px 12px;
+    width: 70%; 
+    border: 1px solid #808080;
+    margin: 2% auto;
+    border-radius: 7px;
+    background: rgb(227, 222, 222);
+    box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+.registration input[type="text"] {
+    font-size: 15px;
+    outline: none;
+    font-weight: 600;
+    color: #8D8E8F;
+    padding: 2% 1% 2% 7%;
+    width: 80%;
+    border-top: 1px solid #090B0D;
+    border-right: 2px solid #424549;
+    border-bottom: 2px #424549;
+    border-left: 1px solid #090B0D;
+    margin: 10px 1em;
+    border-radius: 7px;
+    background: #2d4a7c;
+    box-shadow: inset 0px 3px 0px 0px rbga(5, 5, 5, 0.15);
+    font-family: 'Raleway', sans-serif;
+}
+
+.registration input[type="password"] {
+    font-size: 15px;
+    outline: none;
+    font-weight: 600;
+    color: #8D8E8F;
+    padding: 2% 1% 2% 7%;
+    width: 77%;
+    border-top: 1px solid #090B0D;
+    border-right: #424549;
+    border-bottom: 2px #424549;
+    border-left: 1px solid #090B0D;
+    margin: 10px 1em;
+    border-radius: 7px;
+    background: #2d4a7c;
+    box-shadow: inset 0px 3px 0px 0px rbga(5, 5, 5, 0.15);
+    font-family: 'Raleway', sans-serif;
+}
+
+.registration select[id="gender"] {
+    width: 180px;
+    padding: 2% 1% 2% 7%;
+    font-size: 16px;
+    color:#8D8E8F;
+    border-top: 1px solid #090B0D;
+    border-right: #424549;
+    border-bottom: 2px #424549;
+    border-left: 1px solid #090B0D;
+    margin: 10px 1em;
+    border-radius: 7px;
+    background: #2d4a7c;
+    box-shadow: inset 0px 3px 0px 0px rbga(5, 5, 5, 0.15);
+    font-family: 'Raleway', sans-serif;
+}
+
+.registration input[type="date"] {
+    width: 180px;
+    padding: 2% 1% 2% 7%;
+    font-size: 16px;
+    color:#8D8E8F;
+    border-top: 1px solid #090B0D;
+    border-right: #424549;
+    border-bottom: 2px #424549;
+    border-left: 1px solid #090B0D;
+    margin: 10px 1em;
+    border-radius: 7px;
+    background: #2d4a7c;
+    box-shadow: inset 0px 3px 0px 0px rbga(5, 5, 5, 0.15);
+    font-family: 'Raleway', sans-serif;
+}
+
+.input-label {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    pointer-events: none;
+    transition: 0.3s ease-in-out;
+    color: #999;
+  }
+  
+  .form input[type="text"],
+  .form input[type="email"],
+  .form input[type="password"],
+  .form select,
+  .form input[type="date"] {
+    padding: 10px;
+    margin-top: 20px;
+    position: relative;
+    width: 80%;
+  }
+  
+  .form input:focus + .input-label,
+  .form input:valid + .input-label,
+  .form select:focus + .input-label,
+  .form select:valid + .input-label,
+  .form input[type="date"]:focus + .input-label,
+  .form input[type="date"]:valid + .input-label 
+
+.registration input[type="text"] :hover {
+    box-shadow: 0 0 18px rgba(100,65, 0, .8);
+}
+
+.form-spacer {
+    padding: 30px 39px;
+}
+
+.terms {
+    margin: 30px 1px 0 0;
+    margin-top: 13%;
+    padding-left: 52px;
+    font-size: 14px;
+    line-height: 5px;
+    color: #000;
+    cursor: pointer;
+    font-family: 'raleway', sans-serif;
+    font-weight: 600;
+    position: relative;
+    display: inline;
+    float: right;
+}
+
+.terms:hover {
+    color:orange;
+    text-decoration: underline;
+}
+
+.buttom [type="submit"] {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: none;
+    font-weight: 900;
+    outline: none;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px 3%;
+    padding:7px 0px;
+    width: 25%;
+    font-size: 18px;
+    transition: border-color 0.3s color 0.3s background-color 0.3s;
+    border-radius: 7px;
+    background-color: #797a7b;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+.buttom [type="submit"]:hover {
+    color: #000;
+    background-color: #8D8E8F;
+    box-shadow: inset 1px 2px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+/*Footer Styles */
+
+#footer {
+    background-color: rgba(22, 0, 100, 0.3);
+    color: #eff301;
+    text-shadow: 2px 2px 8px 0 rgb(158, 221, 11);
+    padding: 20px 50px 20px 50px;
+    text-align: right;
+}
+
+/*Media Quearies */
+
+@media all and (max-width: 640px) and (min-width: 381px) {
+    .head-main {
+        font-size: 28px;
+    }
+}
+
+@media all and (max-width: 381px) and (min-width: 200px) {
+    .head-main {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170;
+    }
+}
